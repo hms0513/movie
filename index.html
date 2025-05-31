@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommender</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Movie Recommendations</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="genre-buttons">
+            <button data-genre="Horror">Horror</button>
+            <button data-genre="Sci-Fi">Sci-Fi</button>
+            <button data-genre="Drama">Drama</button>
+            <button data-genre="Romance">Romance</button>
+            <button data-genre="Musical">Musical</button>
+            <button data-genre="Comedy">Comedy</button>
+            <button data-genre="History">History</button>
+            <button data-genre="Random">Random Pick</button>
+        </section>
+
+        <section class="movie-list">
+            <!-- Movie cards will be displayed here -->
+        </section>
+    </main>
+
+    <!-- The Modal -->
+    <div id="movieModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-synopsis"></p>
+            <p id="modal-cast"></p>
+            <p id="modal-year"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
