@@ -198,4 +198,19 @@ form button[type="submit"]:hover {
 .bg-History {
     background-color: #4a4a3a;
     color: #f4f4f4;
+}
+
+.bg-Animation {
+    background-color: #9370DB;
+    color: #f4f4f4;
+}
+
+.bg-Family {
+    background-color: #FF7F50;
+    color: #f4f4f4;
+}
+
+.bg-Thriller {
+    background-color: #483D8B;
+    color: #f4f4f4;
 } 
