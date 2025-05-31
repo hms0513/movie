@@ -223,4 +223,12 @@ form button[type="submit"]:hover {
 .bg-Action {
     background-color: #B22222;
     color: #f4f4f4;
+}
+
+.modal-content p {
+    margin-bottom: 10px;
+}
+
+.modal-content h2 {
+    margin-bottom: 15px;
 } 
