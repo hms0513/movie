@@ -213,4 +213,14 @@ form button[type="submit"]:hover {
 .bg-Thriller {
     background-color: #483D8B;
     color: #f4f4f4;
+}
+
+.bg-Adventure {
+    background-color: #DAA520;
+    color: #f4f4f4;
+}
+
+.bg-Action {
+    background-color: #B22222;
+    color: #f4f4f4;
 } 

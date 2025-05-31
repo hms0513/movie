@@ -48,6 +48,15 @@ const movies = {
         { title: "Race Against Time", description: "A non-stop action thriller.", image: "https://via.placeholder.com/150/483D8B/FFFFFF/?text=Thriller+2", synopsis: "With the clock ticking, an unlikely hero must prevent a catastrophic event.", cast: "Ex-agent Jake Riley, tech expert Sarah Chen", year: 2024 },
          { title: "The Secret Room", description: "A couple discovers a hidden room with a dark past.", image: "https://via.placeholder.com/150/483D8B/FFFFFF/?text=Thriller+3", synopsis: "After moving into an old house, a couple finds a sealed room that holds terrifying secrets.", cast: "Mark and Lisa Roberts", year: 2022 },
     ],
+    Adventure: [
+        { title: "The Lost Temple", description: "Exploring ancient ruins in a dense jungle.", image: "https://via.placeholder.com/150/DAA520/FFFFFF/?text=Adventure+1", synopsis: "An archeologist races against time to uncover the secrets of a lost civilization.", cast: "Dr. Anya Sharma, rugged guide Ben Carter", year: 2021 },
+        { title: "Mountain Expedition", description: "A treacherous climb to the world's highest peak.", image: "https://via.placeholder.com/150/DAA520/FFFFFF/?text=Adventure+2", synopsis: "A team of climbers faces extreme conditions and personal challenges on their ascent.", cast: "Lead climber Jake Miller, experienced Sherpa Nima", year: 2023 },
+    ],
+    Action: [
+        { title: "Code of Vengeance", description: "A former agent seeks revenge.", image: "https://via.placeholder.com/150/B22222/FFFFFF/?text=Action+1", synopsis: "After his family is threatened, a retired operative is pulled back into a dangerous world.", cast: "Ethan Stone, mysterious villain The Shadow", year: 2022 },
+        { title: "High Octane Pursuit", description: "A thrilling car chase across the city.", image: "https://via.placeholder.com/150/B22222/FFFFFF/?text=Action+2", synopsis: "On the run from the authorities and a ruthless syndicate, a driver must use their skills to survive.", cast: "Master driver Alex Kim, determined detective Sarah Roberts", year: 2024 },
+         { title: "The Extraction", description: "A daring rescue mission in hostile territory.", image: "https://via.placeholder.com/150/B22222/FFFFFF/?text=Action+3", synopsis: "An elite team is sent to extract a valuable target from behind enemy lines.", cast: "Team leader Major Eva Rostova, tech specialist Agent Chen", year: 2023 },
+    ],
 };
 
 const movieListDiv = document.querySelector('.movie-list');
